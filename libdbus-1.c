@@ -128,3 +128,22 @@ void* dbus_message_set_member() { return 0; }
 void* dbus_get_version() { return 0; }
 void* dbus_message_get_serial() { return 0; }
 void* dbus_message_get_reply_serial() { return 0; }
+void* dbus_connection_can_send_type() { return 0; }
+void* dbus_connection_get_is_authenticated() { return 0; }
+void* dbus_connection_set_allow_anonymous() { return 0; }
+void* dbus_get_local_machine_id() { return 0; }
+void* dbus_message_copy() { return 0; }
+void* dbus_message_get_allow_interactive_authorization() { return 0; }
+void* dbus_message_iter_get_element_type() { return 0; }
+void* dbus_message_set_auto_start() { return 0; }
+void* dbus_message_set_sender() { return 0; }
+void* dbus_pending_call_get_completed() { return 0; }
+void* dbus_server_disconnect() { return 0; }
+void* dbus_server_get_address() { return 0; }
+void* dbus_server_get_is_connected() { return 0; }
+void* dbus_server_unref() { return 0; }
+void* dbus_message_set_error_name() { return 0; }
+void* dbus_message_set_reply_serial() { return 0; }
+void* dbus_message_set_allow_interactive_authorization() { return 0; }
+void* dbus_server_free_data_slot() { return 0; }
+
