@@ -146,4 +146,6 @@ void* dbus_message_set_error_name() { return 0; }
 void* dbus_message_set_reply_serial() { return 0; }
 void* dbus_message_set_allow_interactive_authorization() { return 0; }
 void* dbus_server_free_data_slot() { return 0; }
-
+void* dbus_try_get_local_machine_id() { return 0; }
+void* dbus_message_get_args_valist() { return 0; }
+void* dbus_message_append_args_valist() { return 0; }

@@ -146,3 +146,6 @@ void dbus_message_set_error_name() {}
 void dbus_message_set_reply_serial() {}
 void dbus_message_set_allow_interactive_authorization() {}
 void dbus_server_free_data_slot() {}
+void dbus_try_get_local_machine_id() {}
+void dbus_message_get_args_valist() {}
+void dbus_message_append_args_valist() {}
